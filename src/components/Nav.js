@@ -1,6 +1,7 @@
 import * as ReactBootStrap from 'react-bootstrap';
 import React from 'react';
 import { Link } from 'gatsby';
+import '../styles/global.css'
 
 function Nav() {
   return (

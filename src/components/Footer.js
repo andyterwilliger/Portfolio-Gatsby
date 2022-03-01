@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, faGithub, FaLinkedin, faLinkedin, FaStackOverflow, faStackOverflow} from 'react-icons/fa'
+import '../styles/global.css'
 
 function Footer() {
     return (

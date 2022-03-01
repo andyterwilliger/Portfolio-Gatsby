@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby';
 import * as ReactBootStrap from 'react-bootstrap';
 import Layout from '../components/Layout';
-
+import '../styles/global.css'
 
 function Projects({ data }){
   

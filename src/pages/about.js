@@ -1,7 +1,7 @@
 import React from 'react'
 import * as ReactBootStrap from 'react-bootstrap';
 import Layout from '../components/Layout';
-
+import '../styles/global.css'
 function About(props){
     return(
        <Layout>
