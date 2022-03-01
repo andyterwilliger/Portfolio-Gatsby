@@ -10,14 +10,14 @@ function Footer() {
                         <div>
                             <li >
                             <a target = '_blank' href= 'https://github.com/andyterwilliger'>
-                                <FaGithub className='icon'/>
+                                <FaGithub size={42} className='icon'/>
                             </a>
                             </li>
                         </div>
                         <div id='linkedin-i'>
                             <li>
                             <a target = '_blank' href= 'https://www.linkedin.com/in/andy-terwilliger/'>
-                            <FaLinkedin className='icon' />
+                            <FaLinkedin size={42} className='icon' />
                             </a>
                             </li>
                         </div>
@@ -25,7 +25,7 @@ function Footer() {
                             <li>
                             <a target = '_blank' href= 'https://stackoverflow.com/users/18311028/andy123'>
 
-                                <FaStackOverflow className='icon'/>
+                                <FaStackOverflow size={42} className='icon'/>
                                 </a>
                             </li>
 
