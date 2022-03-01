@@ -1,7 +1,9 @@
 import React from "react"
+import Layout from "../components/Layout";
 
 function Home(props) {
   return (
+  <Layout>
   <body id = 'home-body' style={{ minHeight: '100vh'}}>
   <div id = 'chicago-img-container'>
  
@@ -18,6 +20,7 @@ function Home(props) {
   </h2>
       </div>
       </body>
+      </Layout>
   )
 }
 
