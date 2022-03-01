@@ -1,8 +1,10 @@
 import React from 'react';
+import Layout from '../components/Layout';
 
 function Contact(props){
 
     return(
+        <Layout>
         <div id = 'contact-body'>
             <h1>Contact Me</h1>
             <section>
@@ -35,9 +37,10 @@ function Contact(props){
             </div>
             </section>
         </div>
+        </Layout>
     )
 
-
+    
 }
 
 export default Contact;

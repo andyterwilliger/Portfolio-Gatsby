@@ -1,9 +1,11 @@
 import React from 'react'
 import * as ReactBootStrap from 'react-bootstrap';
+import Layout from '../components/Layout';
 
 function About(props){
     return(
-        <div id = 'about-body'>
+       <Layout>
+       <div id = 'about-body'>
         
         <section id = 'about-container'>
         <ReactBootStrap.Card className ='about-card' style ={{border:'none'}}>
@@ -25,6 +27,7 @@ function About(props){
 
         </section>
         </div>
+        </Layout>
     )
 }
 
