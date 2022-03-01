@@ -1,12 +1,12 @@
 ## My Portfolio
 
 ## Technologies Used
-*React
-*Gatsby
-*GraphQL
-*JavaScript
-*CSS
-*Node.js
+* React
+* Gatsby
+* GraphQL
+* JavaScript
+* CSS
+* Node.js
 
 ## Deployment
 
