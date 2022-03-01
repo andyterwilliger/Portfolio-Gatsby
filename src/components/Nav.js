@@ -12,13 +12,11 @@ function Nav() {
           <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
             <ReactBootStrap.Nav className="me-auto">
-            <Link> <ReactBootStrap.Nav.Link style={{ fontSize: '150%' }} href="/about">About</ReactBootStrap.Nav.Link></Link> 
-            <Link> <ReactBootStrap.Nav.Link style={{ fontSize: '150%' }} href="/projects">Projects</ReactBootStrap.Nav.Link></Link> 
-
-
-             <Link> <ReactBootStrap.Nav.Link style={{ fontSize: '150%' }} eventKey={2} href="/contact"> 
+             <ReactBootStrap.Nav.Link style={{ fontSize: '150%' }} href="/about">About</ReactBootStrap.Nav.Link>
+             <ReactBootStrap.Nav.Link style={{ fontSize: '150%' }} href="/projects">Projects</ReactBootStrap.Nav.Link>
+             <ReactBootStrap.Nav.Link style={{ fontSize: '150%' }} eventKey={2} href="/contact"> 
                 Contact
-      </ReactBootStrap.Nav.Link></Link>
+                </ReactBootStrap.Nav.Link>
             </ReactBootStrap.Nav>
           </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Container>
