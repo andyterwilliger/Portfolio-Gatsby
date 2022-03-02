@@ -10,4 +10,4 @@
 
 ## Deployment
 
-Click [here](https://andy-terwilliger.netlify.app/) to see it in action!
+Click [here](https://andyterwilliger.com) to see it in action!
