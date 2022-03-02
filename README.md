@@ -11,3 +11,5 @@
 ## Deployment
 
 Click [here](https://andyterwilliger.com) to see it in action!
+
+Alternative: https://andy-terwilliger.netlify.app/
