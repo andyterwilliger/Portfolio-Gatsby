@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Home(props) {
   return (
   <Layout>
-  <body id = 'home-body' style={{ minHeight: '100vh'}}>
+  <section id = 'home-body' style={{ minHeight: '100vh'}}>
   <div id = 'chicago-img-container'>
  
  </div>
@@ -22,7 +22,7 @@ function Home(props) {
              I'm a developer and problem solver. 
   </h2>
       </div>
-      </body>
+      </section>
       </Layout>
   )
 }

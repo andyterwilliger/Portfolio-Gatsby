@@ -14,16 +14,17 @@ const projects=data.allMarkdownRemark.nodes
             <h1>Projects</h1>
       <div id = 'projects-cards'>
       {projects.map (project => (
-            <ReactBootStrap.Card style={{ width: '20rem' }}>
+            <ReactBootStrap.Card>
     
-  <ReactBootStrap.Card.Img variant="top" src= {project.frontmatter.image} />
+  <ReactBootStrap.Card.Img variant="top" alt= {project.frontmatter.alt} src= {project.frontmatter.image} />
   <ReactBootStrap.Card.Body>
     
     <ReactBootStrap.Card.Title>{project.frontmatter.title}</ReactBootStrap.Card.Title>
     <ReactBootStrap.Card.Text>
      {project.frontmatter.description}
     </ReactBootStrap.Card.Text>
-   <a href ={project.frontmatter.link} target = '_blank'><ReactBootStrap.Button id='project-btn4' variant="primary">Launch</ReactBootStrap.Button></a> 
+    {project.frontmatter.link ? (
+   <a title={project.frontmatter.ctaTitle} href ={project.frontmatter.link} target = '_blank'><ReactBootStrap.Button id='project-btn4' variant="primary">Launch</ReactBootStrap.Button></a> ) : null}
   </ReactBootStrap.Card.Body>
 </ReactBootStrap.Card>
     ))}
@@ -42,8 +43,10 @@ query MyQuery {
       frontmatter {
         title
         image
+        alt
         link
         description
+        ctaTitle
       }
       id
     }
